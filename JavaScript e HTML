@@ -1,0 +1,30 @@
+JavaScript e HTML: desenvolva um jogo e pratique lógica de programação 
+
+Aula 10 - Módulo 07
+//De while para for!
+
+var contador = 1;
+while(contador <= 10) {
+    alert("Contador atual: " + contador);
+    contador = contador + 1;
+}
+
+#Eles precisam convertê-lo de maneira a usar a instrução for.
+
+//A instrução for é dividida em três partes que são separadas por ponto e vírgula. 
+//A primeira é destinada a variável de incremento, a segundo à condição de repetição e a última ao incremento da variável de incremento.
+//Aliás, quando queremos incrementar de um em um, podemos usar o pós incremento.
+
+for( var contador = 1; contador <= 10; contador = contador + 1 ) {
+    alert("Contador atual: " + contador);
+}
+
+//Veja que usamos contador++ no lugar de contador = contador + 1. 
+//A primeira forma é muito mais enxuta.
+
+Aula 11 - Módulo 07
+//Do for para o while!
+
+//Mas preste atenção, quando usamos o zero para iniciar uma repetição, precisamos substituir o sinal do limitador (espaco2), 
+  de <= (menor igual) para apenas < (menor), pois o zero conta como primeiro elemento dentro do laço.
+//
